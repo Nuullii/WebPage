@@ -74,7 +74,7 @@ Nav .Nav_bar {
 Nav li:hover {
     color: white;
     text-decoration: underline;
-    background-color: #FC4849;
+    background-color: hsl(360, 97%, 64%);
 }
 
 /* Fin Header */
@@ -94,6 +94,23 @@ main #Pag1 {
     align-items: center;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+#Pag1 img{
+    padding: 0;
+    z-index: 1;
+}
+
+#Pag1 h1{
+    padding: 0;
+    z-index: 1;
+}
+
+#Pag1 #principal {
+    background-color: hsl(360, 97%, 64%, 0.2);
+    z-index: 0;
+    padding: 5% 15% 5% 15%;
+    border-radius: 20%;
 }
 
 /* Fin Página1 */
@@ -402,6 +419,18 @@ footer {
         padding-top: 10%;
         font-weight: 550;
     }
+
+    #Pag1 h1{
+        text-align: center;
+    }
+
+    #Pag1 #principal {
+        background-color: hsl(360, 97%, 64%, 0.2);
+        z-index: 0;
+        padding: 1% 4% 1% 4%;
+        border-radius: 20%;
+    }
+
     #Pag2 .Card h2, #Pag2 .Card h4{
         color: white;
     }
